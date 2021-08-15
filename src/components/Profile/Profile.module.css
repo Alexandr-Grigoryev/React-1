@@ -1,0 +1,33 @@
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+
+  height: auto;
+  width: 500px;
+
+  border: 3px solid rgb(79, 95, 89);
+}
+
+.stats {
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: darkgrey;
+
+  height: 100px;
+}
+
+.stats li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
