@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import s from './Profile.module.css';
 
 function Profile({ userData }) {
-  console.log(userData.name);
+  // console.log(userData.name);
   return (
     <div className={s.profile}>
       <div className={s.description}>
